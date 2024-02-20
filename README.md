@@ -1,2 +1,2 @@
 # .dotfiles
-My dotfiles for both windows and linux
+My dotfiles for both Windows and Linux
