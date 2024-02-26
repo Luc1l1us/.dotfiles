@@ -102,3 +102,8 @@ alias ohmyzsh="nvim ~/.oh-my-zsh"
 #
 # Additional plugins
 pokemon-colorscripts -r --no-title -s
+
+# Additional exports
+export EDITOR=nvim
+#export EDITOR="$VISUAL"
+
