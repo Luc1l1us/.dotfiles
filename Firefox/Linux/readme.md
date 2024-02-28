@@ -1,4 +1,4 @@
 > # Extension 
 >
-> ## - nightTab
-> ## - Tree Style Tab
+> - nightTab
+> - Tree Style Tab
