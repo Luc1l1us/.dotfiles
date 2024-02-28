@@ -26,3 +26,8 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
 elif [[ "$OSTYPE" == "msys" ]]; then
 	echo "Windows is not supported!"
 fi
+
+read -n1 -rep 'Copy ZSH config into config? (y/n) ' zshd
+if [[ $zshd == "Y" || $zshd == "y" ]]; then
+	cp -r $script_dir/zsh/. ~/Downloads/
+fi
