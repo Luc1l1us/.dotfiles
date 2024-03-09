@@ -6,5 +6,5 @@ My dotfiles for both Windows and Linux
 >
 > cd into directory 
 >
-> set-hypr.sh
+> ./set-hypr.sh
 >
