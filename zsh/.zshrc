@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH=~/development/flutter/bin/:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -99,11 +100,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
+alias cdfirefox="cd ~/.mozilla/firefox/t7wugmd6.default-release/"
+alias lsa="ls -A"
+alias hypr="cd .config/hypr"
 #
 # Additional plugins
 pokemon-colorscripts -r --no-title -s
+
+# Gif
+# kitty +kitten icat Downloads/MOSHED-2024-3-5-13-50-9.gif
 
 # Additional exports
 export EDITOR=nvim
 #export EDITOR="$VISUAL"
 
+
+PATH=~/.console-ninja/.bin:$PATH
