@@ -1,0 +1,12 @@
+#!/bin/bash
+
+read -n1 -rep 'Copy .config files to .dotfiles (y/n) ' copy
+if [[ $copy == "y" ]]; then
+	cp -r ~/.zshrc ~/.dotfiles/zsh/
+	cd ~/.mozilla/firefox/t7wugmd6.default-release/
+	cp -r chrome/ ~/.dotfiles/
+	#sudo cp -r /etc/default/grub ~/.dotfiles/ #/etc/default/grub
+	cp -r ~/.config/ags/ ~/.dotfiles/ags/
+	cp -r ~/.config/hypr/ ~/.dotfiles/hypr/
+	cp -r ~/.config/kitty/ ~/.dotfiles/kitty/
+fi
