@@ -130,7 +130,7 @@
 }
 
 /* Windows specific styles */
-@media (-moz-platform: windows-win10) {
+/* @media (-moz-platform: windows-win10) { */
     /* Hide main tabs toolbar */
     :root[tabsintitlebar]{
         --uc-window-control-width: 137px; /* Space at the right of nav-bar for window controls */
@@ -233,7 +233,7 @@
     :root[inFullscreen] #nav-bar {
         border-inline: none !important;
     }
-}
+/* } */
 
 
 /* General styles */
@@ -314,8 +314,8 @@
     height: 100%;
 }
 
-#main-window:not([inFullscreen]) #sidebar-box[sidebarcommand*="tabcenter"]:not([hidden]) ~ #appcontent {
-    margin-left: var(--positionX1);
+#main-window:not([inFullscreen]) #sidebar-box[sidebarcommand*="tabcenter"]:not([hidden]) ~ #tabbrowser-tabbox {
+    margin-left: var(--positionX1) !important;
 }
 
 #main-window[inFullscreen][inDOMFullscreen] #appcontent {
