@@ -12,9 +12,6 @@
             --hand-width: 2.8px;
             --switch-size: 84px;
             --switch-height: 42px;
-            --fcolor: #bda2dd;
-            --scolor: #624a95;
-            --lcolor: #1e1e1e;
         }
 
         body {
@@ -41,6 +38,8 @@
             display: flex;
             align-items: center;
             gap: var(--gap);
+            /* erase animation property to erase glitch effect */
+            animation: glitch 3s infinite alternate;
         }
 
         .code { color: #569cd6; }
@@ -74,28 +73,22 @@
             animation: rotatingShadow 3s linear infinite, glitch 3s infinite alternate; 
             /* remove or replace with box-shadow: 0px 0px 20px #f7b398;
             animation: rotatingShadow 3s infinite alternate, glitch 3s infinite alternate; 
+            animation: rotatingShadow 3s linear infinite, glitch 3s infinite alternate; 
             */           
-        }
-        
-
-        @keyframes boxshadowShift {
-            0% {background: linear-gradient(45deg, #bda2dd, #624a95);}
-            50% {background: linear-gradient(135deg, #624a95, #1e1e1e);}
-            100% {background: linear-gradient(225deg, #1e1e1e, #bda2dd);}
         }
 
         @keyframes gradientHand {
-            0%, 100% {background: #ff4800;}
-            25% {background: #fc7039;}
-            50% {background: #f7b398;}
-            75% {background: #f8dace;}
+            0%, 100% {background: #6eccee;}
+            25% {background: #f672ca;}
+            50% {background: #6eccee;}
+            75% {background: #f672ca;}
         }
 
         @keyframes rotatingShadow {
-            0%, 100% { box-shadow: 0px 0px 10px #ff4800; }
-            25% { box-shadow: 5px 5px 20px #fc7039;}
-            50% { box-shadow: 0px 0px 30px #f7b398;}
-            75% { box-shadow: -5px -5px 20px #f8dace;}        
+            0%, 100% { box-shadow: 0px 0px 10px #6eccee; }
+            25% { box-shadow: 5px 5px 20px #f672ca;}
+            50% { box-shadow: 0px 0px 30px #6eccee;}
+            75% { box-shadow: -5px -5px 20px #f672ca;}        
         }
 
         /* glitch effect */
