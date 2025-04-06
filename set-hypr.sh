@@ -14,24 +14,27 @@ script_dir=$(realpath $(dirname $0))
 # set default profile path to PROFPATH
 cd ~/.mozilla/firefox/
 
-if [[ $(grep '\[Profile[^0]\]' profiles.ini) ]]; then
-	PROFPATH=$(grep -E '^\[Profile|^Path|^Default' profiles.ini | grep -1 '^Default=1' | grep '^Path' | cut -c6-)
-	echo "first worked"
-else
-	PROFPATH=$(grep 'Path=' profiles.ini | sed 's/^Path=//')
-	echo "the second worked"
- fi
+# if [[ $(grep '\[Profile[^0]\]' profiles.ini) ]]; then
+#	PROFPATH=$(grep -E '^\[Profile|^Path|^Default' profiles.ini | grep -1 '^Default=1' | grep '^Path' | cut -c6-)
+#	echo "first worked"
+# else
+#	PROFPATH=$(grep 'Path=' profiles.ini | sed 's/^Path=//')
+#	echo "the second worked"
+# fi
 
 # check OS for specific firefox config
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-	#	cp -r $script_dir/Firefox/Linux/* ~/Downloads/
-	cp -r $script_dir/Firefox/Linux/* ~/.mozilla/firefox/$PROFPATH
-	echo "Linux detected! Copying Firefox Config..."
-elif [[ "$OSTYPE" == "msys" ]]; then
-	echo "Windows is not supported!"
-fi
+#if [[ "$OSTYPE" == "linux-gnu" ]]; then
+#	#	cp -r $script_dir/Firefox/Linux/* ~/Downloads/
+#	cp -r $script_dir/Firefox/Linux/* ~/.mozilla/firefox/$PROFPATH
+#	echo "Linux detected! Copying Firefox Config..."
+#elif [[ "$OSTYPE" == "msys" ]]; then
+#	echo "Windows is not supported!"
+#fi
 
-read -n1 -rep 'Copy ZSH config into config? (y/n) ' zshd
-if [[ $zshd == "Y" || $zshd == "y" ]]; then
-	cp -r $script_dir/zsh/. ~/Downloads/
-fi
+#read -n1 -rep 'Copy ZSH config into config? (y/n) ' zshd
+#if [[ $zshd == "Y" || $zshd == "y" ]]; then
+#	cp -r $script_dir/zsh/. ~/Downloads/
+#fi
+
+echo "Copying kitty conf..."
+cp -r $script_dir/kitty/. ~/.config/kitty/
