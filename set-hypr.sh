@@ -31,10 +31,27 @@ cd ~/.mozilla/firefox/
 #	echo "Windows is not supported!"
 #fi
 
-#read -n1 -rep 'Copy ZSH config into config? (y/n) ' zshd
-#if [[ $zshd == "Y" || $zshd == "y" ]]; then
-#	cp -r $script_dir/zsh/. ~/Downloads/
-#fi
+# read -n1 -rep 'Copy ZSH config into config folder? (y/n)' zshd
+# if [[$zshd == "Y" || $zshd == "y" ]]; then
+# cp -r $script_dir/zsh/. ~
+# fi
 
+# Copy .zshrc config
+echo "Copying .zshrc conf..."
+cp -r $script_dir/zsh/. ~
+
+# Copy kitty.conf
 echo "Copying kitty conf..."
 cp -r $script_dir/kitty/. ~/.config/kitty/
+
+# Backup, edit, and copy grub theme
+echo "Backing up, and Copying..."
+sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir/grub/themes/* /boot/grub/"
+
+#sudo ed -s /etc/default/grub/ <<EOF /a
+#GRUB_THEME=\"/usr/share/grub/themes/Cyberpunk/theme.txt\"
+#.
+#w
+#q
+#EOF"
+#
