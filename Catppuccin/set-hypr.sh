@@ -37,21 +37,23 @@ cd ~/.mozilla/firefox/
 # fi
 
 # Copy .zshrc config
-echo "Copying .zshrc conf..."
-cp -r $script_dir/zsh/. ~
+#echo "Copying .zshrc conf..."
+#cp -r $script_dir/zsh/. ~
 
 # Copy kitty.conf
-echo "Copying kitty conf..."
-cp -r $script_dir/kitty/. ~/.config/kitty/
+#echo "Copying kitty conf..."
+#cp -r $script_dir/kitty/. ~/.config/kitty/
 
 # Backup, edit, and copy grub theme
 echo "Backing up, and Copying..."
-sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir/grub/themes/* /boot/grub/"
+sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir/grub/themes/* /usr/share/grub/themes/"
 
-#sudo ed -s /etc/default/grub/ <<EOF /a
-#GRUB_THEME=\"/usr/share/grub/themes/Cyberpunk/theme.txt\"
+# sudo echo -e "GRUB_THEME=\"/usr/share/grub/themes/Cyberpunk/theme.txt\" >> /etc/default/grub"
+
+#sudo ed -s /etc/default/grub
+#a
+#GRUB_THEME="/usr/share/grub/themes/Cyberpunk/theme.txt"
 #.
 #w
 #q
-#EOF"
-#
+
