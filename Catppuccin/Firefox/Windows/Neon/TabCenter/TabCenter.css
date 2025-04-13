@@ -73,10 +73,6 @@
   .tab {
     overflow: visible;
   }
-
-  .tab-close {
-
-  }
   
   #pinnedtablist:not(.compact) .tab[data-identity-color] .tab-context::before,
   #tablist .tab[data-identity-color] .tab-context::before {
