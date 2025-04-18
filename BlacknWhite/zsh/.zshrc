@@ -120,3 +120,5 @@ export EDITOR=nvim
 PATH=~/.console-ninja/.bin:$PATH
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+
+export PATH=$PATH:/home/Dizzy/.spicetify
