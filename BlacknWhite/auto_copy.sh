@@ -9,7 +9,8 @@ cp -r ~/.config/hypr/ $script_dir/
 cp -r --force ~/.zshrc $script_dir/zsh
 cp -r ~/.config/rofi/config.rasi $script_dir/rofi
 
-# copy config from firefox
+# copy config from firefox 
+# will change this brute force method later on (TBD)
 cp -r ~/.mozilla/firefox/0zqgk6n9.dizzy/chrome/* $script_dir/firefox
 
 echo 'Files copied successfully!'
