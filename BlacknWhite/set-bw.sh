@@ -7,7 +7,7 @@ script_dir=$(realpath $(dirname $0))
 #read -n1 -rep 'Would you like to install the package (Y/N) ' INST
 #if [[ $INST == "Y" || $INST == "y" ]]; then
 #	yay -S --noconfirm hyprland kitty waybar \
-#		neovim firefox rofi-lbonn-wayland-git wlogout brightnessctl
+#		neovim firefox  wlogout brightnessctl
 #
 #fi
 
@@ -45,6 +45,7 @@ cd ~/.mozilla/firefox/
 #cp -r $script_dir/kitty/. ~/.config/kitty/
 
 # Backup, edit, and copy grub theme
+# To be Continued
 echo "Backing up, and Copying..."
 sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir/grub/themes/* /usr/share/grub/themes/"
 
@@ -57,3 +58,6 @@ sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir
 #w
 #q
 
+# Copy rofi
+#echo "Copying rofi conf..."
+#cp -r $script_dir/rofi/*. ~/.config/rofi
