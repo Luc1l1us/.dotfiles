@@ -12,28 +12,35 @@ window {
   }
 
 mainbox {
-    children: [window-colorbar, listview];
+    children: [inputbar, listview];
   }
 
-window-colorbar {
+inputbar {
+  padding: 50px;
   location: center;
   anchor: center;
-  // transparency: "background";
-  transparency: "path:/home/Dizzy/.dotfiles/BlacknWhite/Wallpaper/bw_2.png";
+  border: 0;
+  border-color: rgba(95,68,131,0.3);      
+  border-radius: 10px 10px 0 0;
+  background-image: url("~/.dotfiles/BlacknWhite/Wallpaper/bw_1.jpeg", width);
+  children: [textbox, prompt];
 }
+
+prompt {
+    enabled: false;
+  }
 
 listview {
     spacing: 90px;
     layout: horizontal;
-    border: 1px;                        
+    border: 1px;
+    border-radius: 0 0 10px 10px;
     border-color: rgba(95,68,131,0.3);      
-    border-radius: 10px;
     children: [element];
   }
 
 element {
-    padding: 20px;
-    children: [button-paste];
+    padding: 10px;
   }
 
 element selected.normal {
