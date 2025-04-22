@@ -9,8 +9,11 @@ cp -r ~/.config/hypr/ $script_dir/
 cp -r --force ~/.zshrc $script_dir/zsh
 cp -r ~/.config/rofi/config.rasi $script_dir/rofi
 
-# copy config from firefox 
+# copy config from firefox
 # will change this brute force method later on (TBD)
 cp -r ~/.mozilla/firefox/0zqgk6n9.dizzy/chrome/* $script_dir/firefox
+
+# copy SDDM theme
+cp -r /usr/share/sddm/themes/sddm-blacknwhite-theme/ $script_dir/sddm
 
 echo 'Files copied successfully!'

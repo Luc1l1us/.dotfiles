@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# NOT FINISHED
-
 function human_readable {
   VALUE=$1
   BIGGIFIERS=(B K M G)
