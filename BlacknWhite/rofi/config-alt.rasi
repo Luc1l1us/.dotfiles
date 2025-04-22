@@ -1,0 +1,86 @@
+configuration {
+  modi: "drun";
+  show-icons: true;
+  drun-display-format: "{name} \r[<span weight='light' size='small'>{comment}</span>]";
+  modes: "drun";
+}
+
+@theme "/usr/share/rofi/themes/arthur.rasi"
+
+* {
+  //font: "Cascadia Mono PL 12";
+  font: "Jetbrains Mono 12";
+}
+
+element {
+  orientation: horizontal;
+  children: [ element-icon, element-text];
+  spacing: 5px;
+}
+
+element-index {
+  text-color: rgba(95,68,131,1);
+  }
+
+listview {
+    lines: 3;
+    enabled: true;
+    background-color: rgba(0,0,0,0.7);
+    border: 0;
+    cycle: true;
+  }
+
+element-text {
+  font: "noto-fonts";
+  text-color: white;
+  children: [textbox];
+}
+
+element selected.normal {
+    border: 3px;
+    background-color: transparent;
+    border-color: rgba(95,68,131,0.8);
+}
+
+inputbar {
+  background-color: rgba(0,0,0,0.5);
+  border: 0;
+  padding: 20px;
+  text-color: white;
+  text-outline: true;
+  children: [entry];
+}
+
+entry {
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 6px;
+  padding: 15px;
+  placeholder: "Enter search term";
+  }
+
+mainbox {
+    border: 2px;
+    border-color: rgba(95,68,131,0.3);
+    border-radius: 10px;
+    padding: 0px;
+  }
+
+prompt { //erase prompt
+    enabled: false;
+  }
+
+window {
+    height: 28%;
+    width: 35%;
+    padding: 20px;
+    border: 1px;
+    border-radius: 10px;
+    border-color: rgba(0,0,0,0.3);
+    
+  }
+  
+element-icon {
+  size: 1.7em;
+  padding: 2px;
+}
+

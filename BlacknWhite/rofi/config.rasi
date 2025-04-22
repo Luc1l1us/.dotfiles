@@ -8,13 +8,12 @@ configuration {
 @theme "/usr/share/rofi/themes/arthur.rasi"
 
 * {
-  //font: "Cascadia Mono PL 12";
   font: "Jetbrains Mono 12";
 }
 
 element {
   orientation: horizontal;
-  children: [ element-icon, element-text];
+  children: [ element-icon, element-text ];
   spacing: 5px;
 }
 
@@ -25,7 +24,7 @@ element-index {
 listview {
     lines: 3;
     enabled: true;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
     border: 0;
     cycle: true;
   }
@@ -38,8 +37,7 @@ element-text {
 
 element selected.normal {
     border: 3px;
-    background-color: transparent;
-    border-color: rgba(95,68,131,0.8);
+    background-color: rgba(95,68,131,0.8);
 }
 
 inputbar {
@@ -48,15 +46,7 @@ inputbar {
   padding: 20px;
   text-color: white;
   text-outline: true;
-  children: [entry];
 }
-
-entry {
-  background-color: rgba(0,0,0,0.7);
-  border-radius: 6px;
-  padding: 15px;
-  placeholder: "Enter search term";
-  }
 
 mainbox {
     border: 2px;
@@ -80,7 +70,7 @@ window {
   }
   
 element-icon {
-  size: 1.7em;
-  padding: 2px;
+ size: 2em;
+ background: transparent;
 }
 
