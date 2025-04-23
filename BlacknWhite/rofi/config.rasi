@@ -37,16 +37,17 @@ element-text {
 }
 
 element selected.normal {
-    border: 3px;
-    background-color: rgba(95,68,131,0.8);
+    border: 0px;
+    background-color: rgba(95,68,131,0.5);
 }
 
 inputbar {
+  location: center;
+  anchor: center;
   background-color: rgba(0,0,0,0.5);
   border: 0px;
-  padding: 20px;
+  padding: 30px 20px 20px 20px;
   text-color: white;
-  text-outline: true;
 }
 
 mainbox {
@@ -59,9 +60,8 @@ mainbox {
 prompt { //erase prompt
 // enabled: false;
   enabled: true;
-  vertical-align: 1;
-  horizontal-align: 1;
   text-color: rgba(95,68,131,1);
+  font: "Jetbrains Mono 20";
   }
 
 window {
@@ -71,7 +71,6 @@ window {
     border: 1px;
     border-radius: 10px;
     border-color: rgba(0,0,0,0.3);
-    
   }
   
 element-icon {
