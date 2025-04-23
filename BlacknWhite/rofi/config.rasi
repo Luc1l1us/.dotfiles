@@ -48,7 +48,15 @@ inputbar {
   border: 0px;
   padding: 30px 20px 20px 20px;
   text-color: white;
+  children: [ prompt, entry, textbox-another ];
 }
+
+textbox-another {
+  text-color: rgba(95,68,131,1);
+  padding: 0 0 0 12%;
+  tr: "🔍︎";
+  font: "Jetbrains Mono 20";
+  }
 
 mainbox {
     border: 2px;
@@ -62,6 +70,10 @@ prompt { //erase prompt
   enabled: true;
   text-color: rgba(95,68,131,1);
   font: "Jetbrains Mono 20";
+  }
+
+entry {
+  font: "Jetbrains Mono 15";
   }
 
 window {
