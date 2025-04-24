@@ -2,6 +2,7 @@
 
 * {
   font: "Jetbrains Mono 12";
+  accent-color: #dcdcdc;
 }
 
 window {
@@ -20,7 +21,7 @@ inputbar {
   location: center;
   anchor: center;
   border: 0;
-  border-color: rgba(95,68,131,0.3);      
+  border-color: @accent-color;      
   border-radius: 10px 10px 0 0;
   background-image: url("~/.dotfiles/BlacknWhite/Wallpaper/bw_1.jpeg", width);
   children: [textbox, prompt];
@@ -35,7 +36,7 @@ listview {
     layout: horizontal;
     border: 1px;
     border-radius: 0 0 10px 10px;
-    border-color: rgba(95,68,131,0.3);      
+    border-color: @accent-color;      
     children: [element];
   }
 
@@ -46,5 +47,5 @@ element {
 element selected.normal {
     background-color: transparent;
     border: 3px;
-    border-color: rgba(95,68,131,0.3);
+    border-color: @accent-color;
   }
