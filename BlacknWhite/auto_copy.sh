@@ -8,6 +8,7 @@ cp -r ~/.config/kitty/kitty.conf $script_dir/
 cp -r ~/.config/hypr/ $script_dir/
 cp -r --force ~/.zshrc $script_dir/zsh
 cp -r ~/.config/rofi/* $script_dir/rofi
+cp -r ~/.config/fastfetch/* $script_dir/fastfetch
 
 # copy config from firefox
 # will change this brute force method later on (TBD)
