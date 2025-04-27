@@ -18,5 +18,6 @@ OR
 ```
 git clone https://github.com/Luc1l1us/.dotfiles.git
 cd ~/.dotfiles/BlacknWhite
-//missing install shell script
+chmod +x ~/.set-bw.sh
+./set-bw.sh
 ```
