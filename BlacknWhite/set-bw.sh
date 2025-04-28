@@ -31,6 +31,9 @@ cd ~/.mozilla/firefox/
 #	echo "Windows is not supported!"
 #fi
 
+echo "Copying hyprland config to .config location"
+cp -r $script_dir/hypr/* ~/.config/hypr/
+
 # read -n1 -rep 'Copy ZSH config into config folder? (y/n)' zshd
 # if [[$zshd == "Y" || $zshd == "y" ]]; then
 # cp -r $script_dir/zsh/. ~
@@ -46,8 +49,8 @@ cd ~/.mozilla/firefox/
 
 # Backup, edit, and copy grub theme
 # To be Continued
-echo "Backing up, and Copying..."
-sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir/grub/themes/* /usr/share/grub/themes/"
+# echo "Backing up, and Copying..."
+# sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir/grub/themes/* /usr/share/grub/themes/"
 
 # sudo echo -e "GRUB_THEME=\"/usr/share/grub/themes/Cyberpunk/theme.txt\" >> /etc/default/grub"
 
@@ -61,3 +64,4 @@ sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir
 # Copy rofi
 #echo "Copying rofi conf..."
 #cp -r $script_dir/rofi/*. ~/.config/rofi
+
