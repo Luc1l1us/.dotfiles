@@ -11,13 +11,18 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
+    "custom/spotify",
     "pulseaudio",
     "memory",
     "clock",
     "tray",
     "custom/power"
   ],
-  "": [],
+  "custom/spotify": {
+    "exec": "exec ~/.config/hypr/hyprland/scripts/spotify.sh",
+    "format": "{} \uf1bc",
+    "on-click": "playerctl play-pause"
+  },
   "hyprland/workspaces": {
     "sort-by": "number",
     "format": "{icon}",
@@ -120,6 +125,7 @@
     "spacing": 10
   },
   "clock": {
+    "format": "{:%H:%M %p}  ",
     // "timezone": "America/New_York",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}"
@@ -129,7 +135,7 @@
     "tooltip": false
   },
   "memory": {
-    "format": "{}% "
+    "format": "{}%  "
   },
   "temperature": {
     // "thermal-zone": 2,
