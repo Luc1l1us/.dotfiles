@@ -36,9 +36,29 @@ window#waybar.chromium {
 
 /* CUSTOM MODULES HERE */
 
+#custom-power {
+  padding: 0 10px 0 10px;
+}
+
+#custom-updates {
+  padding: 0 10px 0 10px;
+  margin-left: 20px;
+  background: rgba(240, 240, 240, 0.06);
+  border-radius: 10px;
+}
+
+#custom-updates:hover {
+  background: rgba(60, 60, 60, 0.8);
+}
+
 #custom-spotify {
+  border-radius: 10px;
   padding: 0 15px 0 10px;
   background: rgba(240, 240, 240, 0.06);
+}
+
+#custom-spotify:hover {
+  background: rgba(60, 60, 60, 0.8);
 }
 
 button {
@@ -52,8 +72,8 @@ button:hover {}
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background: rgba(60, 60, 60, 0.8);
+  color: #ffffff;
 }
 
 #workspaces {
@@ -75,6 +95,10 @@ button:hover {}
 
 #workspaces button.urgent {
   background-color: #eb4d4b;
+}
+
+#workspaces button.active {
+  background: rgba(60, 60, 60, 1);
 }
 
 #mode {
@@ -199,6 +223,7 @@ label:focus {
 }
 
 #pulseaudio {
+  border-radius: 10px;
   color: #ffffff;
 }
 

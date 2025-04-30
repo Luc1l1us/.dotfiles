@@ -6,7 +6,9 @@
   "spacing": 4, // Gaps between modules (4px)
   "margin": "5px 5px 0 5px",
   // Choose the order of the modules
-  "modules-left": [],
+  "modules-left": [
+    "custom/updates"
+  ],
   "modules-center": [
     "hyprland/workspaces"
   ],
@@ -18,9 +20,16 @@
     "tray",
     "custom/power"
   ],
+  "custom/updates": {
+    "exec": "exec ~/.config/hypr/hyprland/scripts/updates.sh",
+    "format": "{} \ueb29"
+  },
   "custom/spotify": {
+    "max-length": 30,
     "exec": "exec ~/.config/hypr/hyprland/scripts/spotify.sh",
     "format": "{} \uf1bc",
+    "return-type": "text",
+    "restart-interval": 0,
     "on-click": "playerctl play-pause"
   },
   "hyprland/workspaces": {
@@ -126,7 +135,7 @@
   },
   "clock": {
     "format": "{:%H:%M %p}  ",
-    // "timezone": "America/New_York",
+    "timezone": "Asia/Manila",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}"
   },
