@@ -1,7 +1,6 @@
 #!/bin/bash
 
 playerctl --follow metadata --format '{{ artist }} - {{ title }}' | while read -r line; do
-  # Escape ampersands
   safe_line=$(echo "$line" | sed 's/&/\&amp;/g')
   echo "$safe_line"
 done
