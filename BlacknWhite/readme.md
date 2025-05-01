@@ -1,3 +1,3 @@
 # Black and White or Monochrome
-[logo]: ./images/sample.png
 
+![image](./images/sample.png)
