@@ -7,7 +7,8 @@
   "margin": "5px 5px 0 5px",
   // Choose the order of the modules
   "modules-left": [
-    "custom/updates"
+    "custom/updates",
+    "hyprland/window"
   ],
   "modules-center": [
     "hyprland/workspaces"
@@ -54,10 +55,16 @@
         9,
         10
       ]
-    }
+    },
+    "sort-by-number": true
   },
   "hyprland/window": {
-    "separate-outputs": true
+    "separate-outputs": true,
+    "max-length": 30,
+    "format": "{}",
+    "rewrite": {
+      "(.*) — Mozilla Firefox": "󰈹 $1"
+    }
   },
   // Modules configuration
   // "sway/workspaces": {
