@@ -25,15 +25,6 @@ window#waybar.solo {
 }
 */
 
-window#waybar.termite {
-  background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-  background-color: #000000;
-  border: none;
-}
-
 /* CUSTOM MODULES HERE */
 
 #custom-power {
@@ -42,7 +33,7 @@ window#waybar.chromium {
 
 #custom-updates {
   padding: 0 10px 0 10px;
-  margin-left: 20px;
+  margin: 0 200px 0 20px;
   background: rgba(240, 240, 240, 0.06);
   border-radius: 10px;
 }
@@ -77,6 +68,7 @@ button:hover {}
 }
 
 #workspaces {
+  border: 0.5px solid #ffffff;
   background: rgba(240, 240, 240, 0.06);
   border-radius: 100px;
 }
@@ -99,6 +91,7 @@ button:hover {}
 
 #workspaces button.active {
   background: rgba(60, 60, 60, 1);
+  box-shadow: inset 0px -1px #dcd6d3;
 }
 
 #mode {
@@ -126,9 +119,8 @@ button:hover {}
   color: #ffffff;
 }
 
-#window,
-#workspaces {
-  margin: 0 4px;
+#window {
+  margin: 0 0px 0 50px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -242,6 +234,7 @@ label:focus {
 }
 
 #custom-media {
+
   background-color: #66cc99;
   color: #2a5c45;
   min-width: 100px;
