@@ -10,6 +10,7 @@ cp -r --force ~/.zshrc $script_dir/zsh
 cp -r ~/.config/rofi/* $script_dir/rofi
 cp -r ~/.config/fastfetch/* $script_dir/fastfetch
 cp -r ~/.config/waybar/* $script_dir/waybar
+cp -r ~/.config/wlogout/* $script_dir/wlogout
 
 # copy config from firefox
 # will change this brute force method later on (TBD)
