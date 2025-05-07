@@ -12,10 +12,16 @@
 }
 {
     "label" : "logout",
-    "action" : "loginctl terminate-user $USER",
+    "action" : "hyprlock",
     "text" : "Logout",
     "keybind" : "e"
 }
+/* {
+    "label" : "logout",
+    "action" : "loginctl terminate-user $USER",
+    "text" : "Logout",
+    "keybind" : "e"
+} */
 {
     "label" : "shutdown",
     "action" : "systemctl poweroff",
