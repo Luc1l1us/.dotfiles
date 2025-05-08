@@ -1,0 +1,51 @@
+@theme "/usr/share/rofi/themes/arthur.rasi"
+
+* {
+  font: "Jetbrains Mono 12";
+  accent-color: #dcdcdc;
+}
+
+window {
+  height: 20%;
+  width: 70%;
+  border: 2px;
+  border-color: rgba(0,0,0,0.3);
+  }
+
+mainbox {
+    children: [inputbar, listview];
+  }
+
+inputbar {
+  padding: 50px;
+  location: center;
+  anchor: center;
+  border: 0;
+  border-color: @accent-color;      
+  border-radius: 10px 10px 0 0;
+  background-image: url("~/.dotfiles/BlacknWhite/Wallpaper/bw_1.jpeg", width);
+  children: [textbox, prompt];
+}
+
+prompt {
+    enabled: false;
+  }
+
+listview {
+    spacing: 90px;
+    layout: horizontal;
+    border: 1px;
+    border-radius: 0 0 10px 10px;
+    border-color: @accent-color;      
+    children: [element];
+  }
+
+element {
+    padding: 10px;
+  }
+
+element selected.normal {
+    background-color: transparent;
+    border: 3px;
+    border-color: @accent-color;
+  }
