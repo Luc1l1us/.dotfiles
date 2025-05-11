@@ -29,6 +29,8 @@ button:hover {
 }
 
 #lock {
+  margin: 0 50px 0 1000px;
+  padding: 0 0 0 0;
   background-image: image(url("/usr/share/wlogout/icons/lock_white.png"), url("/usr/local/share/wlogout/icons/lock_white.png"));
 }
 
