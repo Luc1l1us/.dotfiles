@@ -11,7 +11,7 @@ cp -r ~/.config/rofi/* $script_dir/rofi
 cp -r ~/.config/fastfetch/* $script_dir/fastfetch
 cp -r ~/.config/waybar/* $script_dir/waybar
 cp -r ~/.config/wlogout/* $script_dir/wlogout
-
+cp -r ~/.config/spicetify/Themes/tui/ ~/.config/spicetify/config-xpui.ini $script_dir/spicetify
 # copy config from firefox
 # will change this brute force method later on (TBD)
 cp -r ~/.mozilla/firefox/0zqgk6n9.dizzy/chrome/* $script_dir/firefox
