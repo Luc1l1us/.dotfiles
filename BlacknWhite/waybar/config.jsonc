@@ -59,11 +59,21 @@
     "sort-by-number": true
   },
   "hyprland/window": {
+    "format": "{class}",
     "separate-outputs": true,
     "max-length": 30,
+    "all-outputs": true,
     "rewrite": {
-      "(.*) — Mozilla Firefox": "󰈹 $1",
-      "(.*) - nvim": " $1",
+      "firefox": "󰈹 Firefox",
+      "kitty": " kitty",
+      "spotify": "󰓇 Spotify",
+      "discord": " Discord",
+      // uncomment if {title} is used
+      // "(.*) — Mozilla Firefox": "󰈹 $1",
+      // "Mozilla Firefox": "󰈹 $1",
+      // "(.*) — nvim": " $1",
+      // "(.*) — kitty": " $1",
+      // "Spotify": " "
     }
   },
   // Modules configuration
