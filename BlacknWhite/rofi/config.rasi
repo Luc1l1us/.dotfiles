@@ -62,28 +62,33 @@ inputbar {
 
 entry-container {
   orientation: horizontal;
-  children: [entry, textbox-settings, textbox-search];
+  children: [entry, textbox-terminal, textbox-fm, textbox-settings, textbox-search];
   }
 
-textbox-settings, textbox-search {
-    expand: false;
+textbox-terminal {
+  str: " ";
   }
+
+textbox-fm {
+  str: " ";
+  } 
 
 textbox-settings {
-  background-color: @accent-color;
   str: " ";
-  font: "Jetbrains Mono 20";
-  border-radius: 10px;
-  padding: 0 8px 0 12px;
   }
 
 textbox-search {
-  background-color: @accent-color;
   str: " ";
-  font: "Jetbrains Mono 20";
-  border-radius: 10px;
-  padding: 0 8px 0 12px;
   }
+
+textbox-settings, textbox-search, textbox-terminal, textbox-fm,  {
+  background-color: @accent-color;
+  expand: false;
+  font: "Jetbrains Mono 15";
+  border-radius: 10px;
+  padding: 3px 2px 0 6px;
+  }
+
 
 mainbox {
     border: 2px;
