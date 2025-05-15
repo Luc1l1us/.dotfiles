@@ -57,15 +57,38 @@ inputbar {
   border: 0px;
   padding: 30px 20px 20px 20px;
   text-color: white;
-  children: [ prompt, entry, textbox-another ];
+  children: [ prompt, entry-container ];
 }
 
-textbox-another {
-  text-color: @accent-color;
-  padding: 0 0 0 12%;
-  str: "🔍︎";
-  font: "Jetbrains Mono 20";
+entry-container {
+  orientation: horizontal;
+  children: [entry, textbox-terminal, textbox-fm, textbox-settings, textbox-search];
   }
+
+textbox-terminal {
+  str: " ";
+  }
+
+textbox-fm {
+  str: " ";
+  } 
+
+textbox-settings {
+  str: " ";
+  }
+
+textbox-search {
+  str: " ";
+  }
+
+textbox-settings, textbox-search, textbox-terminal, textbox-fm,  {
+  background-color: @accent-color;
+  expand: false;
+  font: "Jetbrains Mono 15";
+  border-radius: 10px;
+  padding: 3px 2px 0 6px;
+  }
+
 
 mainbox {
     border: 2px;
@@ -82,7 +105,9 @@ prompt { //erase prompt
   }
 
 entry {
+  text-color: @accent-color;
   font: "Jetbrains Mono 15";
+  cursor: pointer;
   }
 
 window {
