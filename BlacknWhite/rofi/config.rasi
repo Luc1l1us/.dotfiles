@@ -57,16 +57,24 @@ inputbar {
   border: 0px;
   padding: 30px 20px 20px 20px;
   text-color: white;
-  children: [ prompt, entry, textbox-settings, textbox-search ];
+  children: [ prompt, entry-container ];
 }
+
+entry-container {
+  orientation: horizontal;
+  children: [entry, textbox-settings, textbox-search];
+  }
+
+textbox-settings, textbox-search {
+    expand: false;
+  }
 
 textbox-settings {
   background-color: @accent-color;
   str: " ";
   font: "Jetbrains Mono 20";
-  margin: 0 0px 0 50px;
   border-radius: 10px;
-  padding: 0 0 0 90px;
+  padding: 0 8px 0 12px;
   }
 
 textbox-search {
@@ -74,7 +82,7 @@ textbox-search {
   str: " ";
   font: "Jetbrains Mono 20";
   border-radius: 10px;
-  padding: 0 0 0 90px;
+  padding: 0 8px 0 12px;
   }
 
 mainbox {
@@ -92,6 +100,7 @@ prompt { //erase prompt
   }
 
 entry {
+  text-color: @accent-color;
   font: "Jetbrains Mono 15";
   cursor: pointer;
   }
