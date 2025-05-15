@@ -57,14 +57,24 @@ inputbar {
   border: 0px;
   padding: 30px 20px 20px 20px;
   text-color: white;
-  children: [ prompt, entry, textbox-another ];
+  children: [ prompt, entry, textbox-settings, textbox-search ];
 }
 
-textbox-another {
-  text-color: @accent-color;
-  padding: 0 0 0 12%;
-  str: "🔍︎";
+textbox-settings {
+  background-color: @accent-color;
+  str: " ";
   font: "Jetbrains Mono 20";
+  margin: 0 0px 0 50px;
+  border-radius: 10px;
+  padding: 0 0 0 90px;
+  }
+
+textbox-search {
+  background-color: @accent-color;
+  str: " ";
+  font: "Jetbrains Mono 20";
+  border-radius: 10px;
+  padding: 0 0 0 90px;
   }
 
 mainbox {
@@ -83,6 +93,7 @@ prompt { //erase prompt
 
 entry {
   font: "Jetbrains Mono 15";
+  cursor: pointer;
   }
 
 window {
