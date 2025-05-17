@@ -1,29 +1,16 @@
-#!/bin/bash
-
-function human_readable {
-  VALUE=$1
-  BIGGIFIERS=(B K M G)
-  CURRENT_BIGGIFIER=0
-  while [ $VALUE -gt 10000 ]; do
-    VALUE=$(($VALUE / 1000))
-    CURRENT_BIGGIFIER=$((CURRENT_BIGGIFIER + 1))
+update() {
+  sum=0
+  for arg; do
+    read -r i <"$arg"
+    sum=$((sum + i))
   done
-  #echo "value: $VALUE"
-  #echo "biggifier: ${BIGGIFIERS[$CURRENT_BIGGIFIER]}"
-  echo "$VALUE${BIGGIFIERS[$CURRENT_BIGGIFIER]}"
+  cache=${XDG_CACHE_HOME:-$HOME/.cache}/${1##*/}
+  [ -f "$cache" ] && read -r old <"$cache" || old=0
+  printf %d\\n "$sum" >"$cache"
+  printf %d\\n $((sum - old))
 }
 
-LINE='grep $1 /proc/net/dev | seds/.*://'
-RECEIVED='echo $LINE | awk '{print $1}''
-TRANSMITTED='echo $LINE | awk '{print $9}''
-TOTAL=$(((RECEIVED + $TRANSMITTED - TOTAL)))
+rx=$(update /sys/class/net/[ew]*/statistics/rx_bytes)
+tx=$(update /sys/class/net/[ew]*/statistics/tx_bytes)
 
-SLP=3
-sleep $SLP
-
-LINE=$(grep $1 /proc/net/dev | seds/.*://)
-RECEIVED=$(echo $LINE | awk '{print $1}')
-TRANSMITTED=$(echo $LINE | awk '{print $9}')
-SPEED=$(((RECEIVED + $TRANSMITTED - TOTAL) / $SLP))
-
-printf "$SPEED"
+printf " %4sB  %4sB\\n" $(numfmt --to=iec $rx) $(numfmt --to=iec $tx)

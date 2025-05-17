@@ -6,7 +6,8 @@
 
 window#waybar {
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, 1);
+  /*background-color: rgba(0, 0, 0, 1);*/
+  background-color: rgba(0, 0, 0, 0.7);
   color: #ffffff;
   transition-property: background-color;
   transition-duration: .5s;
@@ -28,29 +29,38 @@ window#waybar.solo {
 /* CUSTOM MODULES HERE */
 
 #custom-power {
-  padding: 0 10px 0 10px;
+  padding: 0 10px 0 0px;
+}
+
+/* all similar properties */
+#custom-netspeed,
+#custom-updates,
+#custom-spotify,
+#memory,
+#clock {
+  border-radius: 10px;
+  background: rgba(240, 240, 240, 0.06);
+}
+
+#custom-netspeed {
+  padding: 0 15px 0 10px;
+}
+
+#custom-netspeed:hover,
+#custom-updates:hover,
+#custom-spotify:hover {
+  background: rgba(60, 60, 60, 0.8);
 }
 
 #custom-updates {
   padding: 0 10px 0 10px;
   margin: 0 200px 0 20px;
-  background: rgba(240, 240, 240, 0.06);
-  border-radius: 10px;
-}
-
-#custom-updates:hover {
-  background: rgba(60, 60, 60, 0.8);
 }
 
 #custom-spotify {
-  border-radius: 10px;
   padding: 0 15px 0 10px;
-  background: rgba(240, 240, 240, 0.06);
 }
 
-#custom-spotify:hover {
-  background: rgba(60, 60, 60, 0.8);
-}
 
 button {
   /* Use box-shadow instead of border so the text isn't offset */
@@ -133,9 +143,6 @@ button:hover {}
   margin-right: 0;
 }
 
-#clock {
-  background-color: #000000;
-}
 
 #battery {
   background-color: #ffffff;
@@ -194,9 +201,6 @@ label:focus {
   color: #000000;
 }
 
-#memory {
-  background-color: #000000;
-}
 
 #disk {
   background-color: #964B00;
@@ -215,6 +219,7 @@ label:focus {
 }
 
 #pulseaudio {
+  background: rgba(240, 240, 240, 0.06);
   border-radius: 10px;
   color: #ffffff;
 }
