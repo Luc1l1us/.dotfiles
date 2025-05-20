@@ -6,6 +6,7 @@
 
 window#waybar {
   border-radius: 8px;
+  /* Uncomment and comment current background-color if blur effect is not to liking */
   /*background-color: rgba(0, 0, 0, 1);*/
   background-color: rgba(0, 0, 0, 0.7);
   color: #ffffff;
@@ -36,8 +37,7 @@ window#waybar.solo {
 #custom-netspeed,
 #custom-updates,
 #custom-spotify,
-#memory,
-#clock {
+#memory {
   border-radius: 10px;
   background: rgba(240, 240, 240, 0.06);
 }
@@ -48,7 +48,8 @@ window#waybar.solo {
 
 #custom-netspeed:hover,
 #custom-updates:hover,
-#custom-spotify:hover {
+#custom-spotify:hover,
+#memory:hover {
   background: rgba(60, 60, 60, 0.8);
 }
 
@@ -61,6 +62,9 @@ window#waybar.solo {
   padding: 0 15px 0 10px;
 }
 
+#clock {
+  padding: 0 1px 0 5px;
+}
 
 button {
   /* Use box-shadow instead of border so the text isn't offset */
@@ -130,7 +134,7 @@ button:hover {}
 }
 
 #window {
-  margin: 0 0px 0 50px;
+  margin: 0 10px 0 100px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
