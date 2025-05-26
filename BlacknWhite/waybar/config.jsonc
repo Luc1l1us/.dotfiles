@@ -26,7 +26,8 @@
     "exec": "exec ~/.config/hypr/hyprland/scripts/updates.sh",
     "format": "{} \ueb29",
     "hide-empty-text": true,
-    "restart-interval": 1800
+    "restart-interval": 1800,
+    "on-click": "kitty -e sudo pacman -Syu"
   },
   "custom/spotify": {
     "max-length": 30,
