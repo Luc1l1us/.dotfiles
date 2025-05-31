@@ -1,0 +1,5 @@
+:root {
+    /*  --tf-bg: var(--lwt-accent-color, -moz-dialog); */
+    --tf-bg: #000000;
+    --tf-accent: #ffffff;
+}
