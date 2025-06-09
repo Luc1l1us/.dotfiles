@@ -24,12 +24,16 @@ cd ~/.mozilla/firefox/
 
 # check OS for specific firefox config
 #if [[ "$OSTYPE" == "linux-gnu" ]]; then
-#	#	cp -r $script_dir/Firefox/Linux/* ~/Downloads/
+#	cp -r $script_dir/Firefox/Linux/* ~/Downloads/
 #	cp -r $script_dir/Firefox/Linux/* ~/.mozilla/firefox/$PROFPATH
 #	echo "Linux detected! Copying Firefox Config..."
 #elif [[ "$OSTYPE" == "msys" ]]; then
 #	echo "Windows is not supported!"
 #fi
+
+# Simple way to copy firefox config 
+PROFPATH="your_profile_directory"
+cp -r $script_dir/Firefox/Linux/* ~/.mozilla/firefox/$PROFPATH
 
 echo "Copying hyprland config to .config location"
 cp -r $script_dir/hypr/* ~/.config/hypr/
