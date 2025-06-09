@@ -10,3 +10,8 @@ execute `./set-bw.ps1`
 
 ### For Firefox config
 Replace [your_profile_directory] with your actual profile directory. Please see your profile by inputting this into the address bar `about:profiles` and copy & paste the root directory of the profile in use.
+
+### Themes yoinked/copied from
+[Discord](https://github.com/refact0r/system24)  
+[Spotify](https://github.com/AvinashReddy3108/spicetify-tui)
+[GRUB](https://github.com/vinceliuice/Elegant-grub2-themes)
