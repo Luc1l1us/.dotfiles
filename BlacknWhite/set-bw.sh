@@ -11,8 +11,22 @@ script_dir=$(realpath $(dirname $0))
 #
 #fi
 
-# set default profile path to PROFPATH
-cd ~/.mozilla/firefox/
+# set default profile path to mozPath
+mozPath="~/.mozilla/firefox/*"
+mozPath
+
+profiles=()
+index = 1
+for dir in $mozPath; do
+    folder_name = $(basename "$dir")
+    esac
+    echo "$index - $folder_name"
+    profiles+=("$folder_name")
+    index=$((index+1))
+done
+read -p "Which profile is currently in use?" choice
+selected = "${profiles[$((choice - 1))]}"
+path_to_profile = "~/.mozilla/firefox/$selected"
 
 # if [[ $(grep '\[Profile[^0]\]' profiles.ini) ]]; then
 #	PROFPATH=$(grep -E '^\[Profile|^Path|^Default' profiles.ini | grep -1 '^Default=1' | grep '^Path' | cut -c6-)
