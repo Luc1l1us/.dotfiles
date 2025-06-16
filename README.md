@@ -14,7 +14,7 @@ chmod +x ~/.set-hyper.sh
 ./set-hypr.sh
 ```
 
-OR
+For BlacknWhite/Monochrome
 ```
 git clone https://github.com/Luc1l1us/.dotfiles.git
 cd ~/.dotfiles/BlacknWhite

@@ -28,4 +28,5 @@ function Invoke-Firefox {
     Write-Host "Done"
 }
 
+Invoke-Spicetify
 Invoke-Firefox

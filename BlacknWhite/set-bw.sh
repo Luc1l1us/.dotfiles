@@ -46,8 +46,8 @@ path_to_profile = "~/.mozilla/firefox/$selected"
 #fi
 
 # Simple way to copy firefox config 
-PROFPATH="your_profile_directory"
-cp -r $script_dir/Firefox/Linux/* ~/.mozilla/firefox/$PROFPATH
+# PROFPATH="your_profile_directory"
+# cp -r $script_dir/Firefox/Linux/* ~/.mozilla/firefox/$PROFPATH
 
 echo "Copying hyprland config to .config location"
 cp -r $script_dir/hypr/* ~/.config/hypr/
