@@ -1,0 +1,203 @@
+2025-06-17 01:20:12,115 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.6
+2025-06-17 01:20:12,116 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-06-17 01:20:12,116 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-17 01:20:12,277 [INFO] [MainThread] [root/config.py:64]: Created default config file at C:\Users\User\.config\yasb\config.yaml
+2025-06-17 01:20:12,311 [INFO] [MainThread] [root/config.py:78]: Created default stylesheet at C:\Users\User\.config\yasb\styles.css
+2025-06-17 01:21:41,385 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-17 01:21:45,636 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 01:21:45,683 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-17 01:21:48,555 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 01:21:48,681 [INFO] [MainThread] [root/bar_manager.py:70]: Starting WindowsNotificationEventListener...
+2025-06-17 01:21:48,685 [INFO] [MainThread] [root/bar_manager.py:70]: Starting KomorebiEventListener...
+2025-06-17 01:21:48,688 [INFO] [MainThread] [root/bar_manager.py:70]: Starting SystemEventListener...
+2025-06-17 01:21:48,688 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\User\.config\yasb
+2025-06-17 01:21:48,694 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-62a460d9-4ad6-11f0-bc4d-001a7dda7113
+2025-06-17 01:21:49,114 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-17 01:21:49,116 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-17 01:24:35,485 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.6
+2025-06-17 01:24:35,485 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-06-17 01:24:35,486 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-17 01:24:42,186 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-17 01:24:42,351 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 01:24:42,355 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-17 01:24:42,813 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 01:24:43,240 [INFO] [MainThread] [root/bar_manager.py:70]: Starting KomorebiEventListener...
+2025-06-17 01:24:43,242 [INFO] [MainThread] [root/bar_manager.py:70]: Starting SystemEventListener...
+2025-06-17 01:24:43,244 [INFO] [MainThread] [root/bar_manager.py:70]: Starting WindowsNotificationEventListener...
+2025-06-17 01:24:43,249 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\User\.config\yasb
+2025-06-17 01:24:43,278 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-caaf14ad-4ad6-11f0-b071-001a7dda7113
+2025-06-17 01:24:43,527 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-17 01:24:43,532 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-17 05:20:14,975 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.6
+2025-06-17 05:20:14,980 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-06-17 05:20:15,059 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-17 05:20:21,902 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-17 05:20:22,231 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 05:20:22,240 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-17 05:20:22,797 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 05:20:22,911 [INFO] [MainThread] [root/bar_manager.py:70]: Starting KomorebiEventListener...
+2025-06-17 05:20:22,912 [INFO] [MainThread] [root/bar_manager.py:70]: Starting WindowsNotificationEventListener...
+2025-06-17 05:20:22,913 [INFO] [MainThread] [root/bar_manager.py:70]: Starting SystemEventListener...
+2025-06-17 05:20:22,914 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\User\.config\yasb
+2025-06-17 05:20:22,944 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-b695a526-4af7-11f0-8717-001a7dda7113
+2025-06-17 05:20:23,036 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-17 05:20:23,040 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-17 06:28:38,161 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.6
+2025-06-17 06:28:38,162 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-06-17 06:28:38,162 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-17 06:28:38,521 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-17 06:28:38,878 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 06:28:38,885 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-17 06:28:40,414 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 06:28:40,708 [INFO] [MainThread] [root/bar_manager.py:70]: Starting KomorebiEventListener...
+2025-06-17 06:28:40,709 [INFO] [MainThread] [root/bar_manager.py:70]: Starting SystemEventListener...
+2025-06-17 06:28:40,709 [INFO] [MainThread] [root/bar_manager.py:70]: Starting WindowsNotificationEventListener...
+2025-06-17 06:28:40,711 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\User\.config\yasb
+2025-06-17 06:28:40,818 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-410fd7d2-4b01-11f0-b82f-001a7dda7113
+2025-06-17 06:28:40,868 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-17 06:28:40,870 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-17 06:29:09,722 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-17 06:29:09,740 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-17 06:29:09,741 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-17 06:29:09,756 [ERROR] [Dummy-19] [root/event_service.py:32]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001F3086BEFD0>. Removing link to WinEvent.EventObjectStateChange.
+2025-06-17 06:29:09,768 [ERROR] [Dummy-19] [root/event_service.py:32]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001F3086BEFD0>. Removing link to WinEvent.EventObjectNameChange.
+2025-06-17 06:29:10,218 [ERROR] [Dummy-19] [root/event_service.py:32]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001F308C0F4D0>. Removing link to WinEvent.EventObjectNameChange.
+2025-06-17 23:45:15,895 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.6
+2025-06-17 23:45:15,896 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-06-17 23:45:15,896 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-17 23:45:16,229 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-17 23:45:16,539 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 23:45:16,544 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-17 23:45:17,547 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-06-17 23:45:17,949 [INFO] [MainThread] [root/bar_manager.py:70]: Starting KomorebiEventListener...
+2025-06-17 23:45:17,950 [INFO] [MainThread] [root/bar_manager.py:70]: Starting WindowsNotificationEventListener...
+2025-06-17 23:45:17,952 [INFO] [MainThread] [root/bar_manager.py:70]: Starting SystemEventListener...
+2025-06-17 23:45:17,952 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\User\.config\yasb
+2025-06-17 23:45:18,163 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-1181b713-4b92-11f0-8541-001a7dda7113
+2025-06-17 23:45:18,215 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-17 23:45:18,252 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-17 23:53:12,793 [INFO] [MainThread] [root/controller.py:14]: Reloading Application because of config change.
+2025-06-17 23:53:12,906 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-17 23:53:12,906 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-17 23:53:12,999 [INFO] [MainThread] [root/bar_manager.py:61]: Successfully loaded updated config and re-initialised all bars.
+2025-06-17 23:53:12,999 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-17 23:53:13,013 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-17 23:53:13,015 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-17 23:53:13,035 [ERROR] [Dummy-195] [root/event_service.py:32]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001DEB781F4D0>. Removing link to WinEvent.EventObjectNameChange.
+2025-06-17 23:53:15,001 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.6
+2025-06-17 23:53:15,001 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-06-17 23:53:15,002 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-17 23:53:15,664 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-17 23:53:18,496 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-17 23:53:19,368 [DEBUG] [MainThread] [root/blurWindow.py:127]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2025-06-17 23:53:19,749 [DEBUG] [MainThread] [root/blurWindow.py:127]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2025-06-17 23:53:19,771 [INFO] [MainThread] [root/bar_manager.py:70]: Starting SystemEventListener...
+2025-06-17 23:53:19,771 [INFO] [MainThread] [root/bar_manager.py:70]: Starting KomorebiEventListener...
+2025-06-17 23:53:19,771 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\User\.config\yasb
+2025-06-17 23:53:19,912 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-30b1c168-4b93-11f0-ae34-001a7dda7113
+2025-06-17 23:53:19,994 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-17 23:53:19,996 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-17 23:53:19,996 [DEBUG] [MainThread] [systray_widget/systray.py:530]: Loading state from C:\Users\User\AppData\Local\Yasb\systray_state_MICROSTEPMSIG24C41569.json
+2025-06-17 23:53:19,997 [DEBUG] [MainThread] [systray_widget/systray.py:540]: State file not found.
+2025-06-17 23:53:20,023 [DEBUG] [TaskbarService] [systray_widget/systray.py:75]: TaskbarService thread is starting...
+2025-06-17 23:53:20,024 [DEBUG] [TrayMonitor] [systray_widget/systray.py:61]: Systray thread is starting...
+2025-06-17 23:53:20,031 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 330628
+2025-06-17 23:53:20,031 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 330628
+2025-06-17 23:53:20,196 [DEBUG] [MainThread] [systray_widget/systray.py:530]: Loading state from C:\Users\User\AppData\Local\Yasb\systray_state_AOC2060W3GCDJAHA189289.json
+2025-06-17 23:53:20,197 [DEBUG] [MainThread] [systray_widget/systray.py:540]: State file not found.
+2025-06-17 23:53:20,387 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:208]: Finding real tray hwnd
+2025-06-17 23:53:20,412 [DEBUG] [MainThread] [systray_widget/systray.py:278]: Systray thread started
+2025-06-17 23:53:20,412 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-06-17 23:53:20.412863
+2025-06-17 23:53:20,613 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 330628
+2025-06-17 23:53:20,654 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:144]: Sending TaskbarCreated message: 49348
+2025-06-17 23:53:21,481 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:53:21,482 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:53:21,482 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:53:21,483 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:53:23,013 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:53:23,013 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:53:23,013 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:53:23,013 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:55:25,636 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:55:25,636 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:55:25,636 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:55:25,636 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:55:31,887 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.6
+2025-06-17 23:55:31,888 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-06-17 23:55:31,888 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-17 23:55:32,103 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-17 23:55:32,416 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-17 23:55:33,148 [DEBUG] [MainThread] [root/blurWindow.py:127]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2025-06-17 23:55:33,570 [DEBUG] [MainThread] [root/blurWindow.py:127]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2025-06-17 23:55:33,588 [INFO] [MainThread] [root/bar_manager.py:70]: Starting KomorebiEventListener...
+2025-06-17 23:55:33,589 [INFO] [MainThread] [root/bar_manager.py:70]: Starting SystemEventListener...
+2025-06-17 23:55:33,589 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\User\.config\yasb
+2025-06-17 23:55:33,698 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-80748e8b-4b93-11f0-b692-001a7dda7113
+2025-06-17 23:55:33,764 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-17 23:55:33,767 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-17 23:55:33,769 [DEBUG] [MainThread] [systray_widget/systray.py:530]: Loading state from C:\Users\User\AppData\Local\Yasb\systray_state_MICROSTEPMSIG24C41569.json
+2025-06-17 23:55:33,770 [DEBUG] [MainThread] [systray_widget/systray.py:540]: State file not found.
+2025-06-17 23:55:33,779 [DEBUG] [TaskbarService] [systray_widget/systray.py:75]: TaskbarService thread is starting...
+2025-06-17 23:55:33,780 [DEBUG] [TrayMonitor] [systray_widget/systray.py:61]: Systray thread is starting...
+2025-06-17 23:55:33,812 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 460990
+2025-06-17 23:55:33,812 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 460990
+2025-06-17 23:55:33,817 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:208]: Finding real tray hwnd
+2025-06-17 23:55:33,966 [DEBUG] [MainThread] [systray_widget/systray.py:530]: Loading state from C:\Users\User\AppData\Local\Yasb\systray_state_AOC2060W3GCDJAHA189289.json
+2025-06-17 23:55:33,966 [DEBUG] [MainThread] [systray_widget/systray.py:540]: State file not found.
+2025-06-17 23:55:34,133 [DEBUG] [MainThread] [systray_widget/systray.py:278]: Systray thread started
+2025-06-17 23:55:34,137 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-06-17 23:55:34.137106
+2025-06-17 23:55:34,334 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 460990
+2025-06-17 23:55:34,348 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:144]: Sending TaskbarCreated message: 49348
+2025-06-17 23:55:35,442 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:55:35,442 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:55:35,443 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:55:35,443 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:55:36,434 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:55:36,434 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:55:36,434 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:55:36,435 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:55:38,031 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:55:38,031 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:55:38,032 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:55:38,032 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:56:14,434 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:56:14,434 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-17 23:56:14,435 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-17 23:56:14,435 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-18 00:05:32,606 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-06-18 00:05:32.606976
+2025-06-18 00:06:10,638 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-18 00:06:10,638 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-18 00:06:10,639 [DEBUG] [MainThread] [systray_widget/systray.py:466]: Re-sorting widgets
+2025-06-18 00:06:10,639 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-18 00:06:36,942 [INFO] [MainThread] [root/controller.py:14]: Reloading Application because of config change.
+2025-06-18 00:06:37,057 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-18 00:06:37,057 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-18 00:06:37,196 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-18 00:06:37,196 [DEBUG] [MainThread] [systray_widget/systray.py:506]: Saving state to disk
+2025-06-18 00:06:37,196 [DEBUG] [MainThread] [systray_widget/systray.py:512]: Saving state to C:\Users\User\AppData\Local\Yasb\systray_state_MICROSTEPMSIG24C41569.json
+2025-06-18 00:06:37,197 [DEBUG] [MainThread] [systray_widget/systray.py:520]: State file not found.
+2025-06-18 00:06:37,197 [DEBUG] [MainThread] [systray_widget/systray.py:488]: Updating current state
+2025-06-18 00:06:37,197 [DEBUG] [MainThread] [systray_widget/systray.py:506]: Saving state to disk
+2025-06-18 00:06:37,198 [DEBUG] [MainThread] [systray_widget/systray.py:512]: Saving state to C:\Users\User\AppData\Local\Yasb\systray_state_AOC2060W3GCDJAHA189289.json
+2025-06-18 00:06:37,198 [DEBUG] [MainThread] [systray_widget/systray.py:520]: State file not found.
+2025-06-18 00:06:37,199 [INFO] [MainThread] [root/bar_manager.py:61]: Successfully loaded updated config and re-initialised all bars.
+2025-06-18 00:06:37,199 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-18 00:06:37,212 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-18 00:06:37,214 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-18 00:06:37,233 [ERROR] [Dummy-271] [root/event_service.py:32]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x0000018B5A16E0D0>. Removing link to WinEvent.EventObjectNameChange.
+2025-06-18 00:06:37,263 [ERROR] [Dummy-271] [root/event_service.py:32]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x0000018B5A16E0D0>. Removing link to WinEvent.EventObjectStateChange.
+2025-06-18 00:06:37,301 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 460986
+2025-06-18 00:06:37,301 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 460990
+2025-06-18 00:06:37,627 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.6
+2025-06-18 00:06:37,627 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-06-18 00:06:37,628 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-18 00:06:37,897 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-18 00:06:38,360 [ERROR] [Dummy-4] [root/update_check.py:186]: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 1.
+2025-06-18 00:06:38,365 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-18 00:06:39,386 [INFO] [MainThread] [root/bar_manager.py:70]: Starting SystemEventListener...
+2025-06-18 00:06:39,387 [INFO] [MainThread] [root/bar_manager.py:70]: Starting KomorebiEventListener...
+2025-06-18 00:06:39,387 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\User\.config\yasb
+2025-06-18 00:06:39,511 [INFO] [Dummy-8] [root/event_listener.py:51]: Created named pipe yasb-0d4d8435-4b95-11f0-a8dd-001a7dda7113
+2025-06-18 00:06:39,552 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-18 00:06:39,555 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-18 00:06:39,975 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-06-18 00:06:39.974784

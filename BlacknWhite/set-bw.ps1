@@ -28,5 +28,23 @@ function Invoke-Firefox {
     Write-Host "Done"
 }
 
-Invoke-Spicetify
-Invoke-Firefox
+<# YASB #>
+function Invoke-YASB {
+    $YASBProf = "$env:USERPROFILE\.config\yasb"
+    Write-Host "Copying YASB dotfiles to $YASBProf"
+    cp .\YASB\* $YASBProf -Force
+    Write-Host "Done"
+}
+
+<# GlazeWM #>
+function Invoke-Glaze {
+    $GlazeProf = "$env:USERPROFILE\.glzr\glazewm\"
+    Write-Host "Copying Glaze dotfiles to $GlazeProf"
+    cp .\glazewm\* $GlazeProf -Force
+    Write-Host "Done"
+}
+
+Invoke-YASB
+Invoke-Glaze
+#Invoke-Spicetify
+#Invoke-Firefox
