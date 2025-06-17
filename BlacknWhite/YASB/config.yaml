@@ -33,9 +33,10 @@ bars:
       bottom: 2
       right: 8
     widgets:
-      left: ["komorebi_workspaces","active_window"]
+      left: ["glazewm_workspaces","active_window"]
+      # left: ["komorebi_workspaces","active_window"]
       center: ["clock"]
-      right: ["media","update","wallpapers","weather","volume","power_menu"]
+      right: ["media","weather","volume","power_menu"]
 widgets:
   media:
       type: "yasb.media.MediaWidget"
@@ -44,7 +45,7 @@ widgets:
         label_alt: "<span>\uf001</span> {artist}"
         hide_empty: true
         max_field_size:
-          label: 20
+          label: 50
           label_alt: 20
         show_thumbnail: false
         controls_only: false
@@ -79,7 +80,19 @@ widgets:
             top: 0
             left: 0
             bottom: 0
-            right: 0 
+            right: 0
+  glazewm_workspaces:
+    type: "glazewm.workspaces.GlazewmWorkspacesWidget"      
+    options:
+      offline_label: "\u26a1 Offline"
+      populated_label: "\udb81\udc3d"
+      empty_label: "\udb81\udc3d"
+      active_populated_label: "\udb81\udc3e"
+      active_empty_label: "\udb81\udc3e"
+      hide_empty_workspaces: false
+      hide_if_offline: false
+
+
   komorebi_active_layout:
       type: "komorebi.active_layout.ActiveLayoutWidget"
       options:
