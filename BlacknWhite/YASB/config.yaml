@@ -36,7 +36,7 @@ bars:
       left: ["glazewm_workspaces","active_window"]
       # left: ["komorebi_workspaces","active_window"]
       center: ["clock"]
-      right: ["media","weather","volume","power_menu"]
+      right: ["media","memory","weather","volume","power_menu"]
 widgets:
   media:
       type: "yasb.media.MediaWidget"
@@ -126,10 +126,10 @@ widgets:
       options:
         label: "<span>{icon}</span> {temp}"
         label_alt: "{location}: {conditions}, Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-        api_key: '3bf4cf9a7c3f40d6b31174128242807'
+        api_key: '75ad69583b3a46bab34142404251906'
         update_interval: 600 #Update interval in seconds, Min 600
         hide_decimal: true
-        location: 'Baghdad'
+        location: 'Manila'
         callbacks:
           on_left: "toggle_label"
         icons: 
