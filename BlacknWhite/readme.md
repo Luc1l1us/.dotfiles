@@ -1,6 +1,10 @@
 # Black and White or Monochrome
 
+Arch  
 ![image](./images/sample.png)
+
+Windows  
+![image](./images/sample(windows).png)
 
 # For Arch Linux
 Execute the following command:

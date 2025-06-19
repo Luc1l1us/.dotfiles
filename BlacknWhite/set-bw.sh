@@ -11,9 +11,9 @@ script_dir=$(realpath $(dirname $0))
 #
 #fi
 
+# Firefox
 # set default profile path to mozPath
 mozPath="~/.mozilla/firefox/*"
-mozPath
 
 profiles=()
 index = 1
