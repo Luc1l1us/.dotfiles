@@ -24,6 +24,7 @@
     --surface0: #282936;
     --base: #1e1e2e;
     --base-2: #131313;
+    --base-3: #292929;
     --mantle: rgba(24, 24, 37, 0.5);
     --crust: rgba(17, 17, 27, 0.5);
 }
@@ -158,27 +159,27 @@
 	width: 160px;
 	height: 240px;
 	border-radius: 6px;
-	background-color: rgba(41, 42, 58, 0.75);
+	background-color: var(--base-2);
 	font-family: "Segoe UI";
 	color: white;
 	border: 4px solid rgba(255, 255, 255, 0);
  
 }
 .power-menu-popup .button.hover {
-	background-color: rgb(55, 56, 75);
-	border: 4px solid rgb(55, 56, 75);
+	background-color: var(--base-3);
+	border: 2px solid rgb(255, 255, 255);
 }
 .power-menu-popup .button .label {
 	margin-bottom: 8px;
 	font-size: 16px;
 	font-weight: 600;
-	color: rgba(255, 255, 255, 0.6);
+	color: white;
 	font-family: "Segoe UI";
 }
 .power-menu-popup .button .icon {
 	font-size: 64px;
 	padding-top: 54px;
-	color: rgba(255, 255, 255, 0.25);
+	color: white;
 }
 .power-menu-popup .button.cancel .icon {
 	color: rgba(243, 139, 168, 0.55);
