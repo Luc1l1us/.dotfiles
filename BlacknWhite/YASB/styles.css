@@ -25,6 +25,7 @@
     --base: #1e1e2e;
     --base-2: #131313;
     --base-3: #292929;
+    --base-darker: #000000;
     --mantle: rgba(24, 24, 37, 0.5);
     --crust: rgba(17, 17, 27, 0.5);
 }
@@ -39,8 +40,9 @@
 .yasb-bar {
 	padding: 0 6px;
 	margin: 0;
-/*    background-color: var(--base); */
-    background-color: var(--base-2);
+    /* background-color: var(--base); */
+    /* background-color: var(--base-2); */
+    background-color: var(--base-darker);
     border-radius: 12px;
 }
 .widget {
@@ -113,7 +115,7 @@
 
 .glazewm-workspaces .ws-btn.active_populated {
     color: #C2DAF7;
-    background-color: var(--base-2);
+    background-color: transparent;
 }
 .glazewm-workspaces .ws-btn.active_empty {
     color: #7D8B9D;
@@ -130,7 +132,8 @@
 .glazewm-workspaces .ws-btn:hover,
 .glazewm-workspaces .ws-btn.populated:hover,
 .glazewm-workspaces .ws-btn.empty:hover {
-    background-color: var(--base-2);
+    background-color: transparent;
+    color: #ffffff;
 }
 
 .komorebi-active-layout {

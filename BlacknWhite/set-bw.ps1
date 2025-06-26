@@ -44,7 +44,16 @@ function Invoke-Glaze {
     Write-Host "Done"
 }
 
+<# Disord/Vencord #>
+function Invoke-VenDisc {
+    $DiscProf = "$env:USERPROFILE\AppData\Roaming\Vencord\themes"
+    Write-Host "Copying Discord/Vencord css file to $DiscProf"
+    cp .\Discord\* $DiscProf
+    Write-Host "Done"
+}
+
 Invoke-YASB
 Invoke-Glaze
+Invoke-VenDisc
 #Invoke-Spicetify
 #Invoke-Firefox
