@@ -1,6 +1,6 @@
 # Black and White or Monochrome
 
-Arch  
+Arch Linux
 ![image](./images/sample.png)
 
 Windows  
