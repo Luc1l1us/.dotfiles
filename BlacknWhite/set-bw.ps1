@@ -1,8 +1,10 @@
 <# SPICETIFY #> 
 function Invoke-Spicetify {
-    Write-host "Copying Spicetify profile to config location"
-    cp .\spicetify\tui "$env:APPDATA\spicetify\Themes" -Force
+    $SpiceProf = "$env:APPDATA\spicetify\Themes"
+    Write-host "Copying Spicetify profile to $SpiceProf"
+    cp .\spicetify\tui "$env:APPDATA\spicetify\Themes\" -Force -Recurse
     cp .\spicetify\config-xpui.ini "$env:APPDATA\spicetify\"
+    Write-Host "Done"
 }
 
 <# FIREFOX #>
@@ -55,5 +57,5 @@ function Invoke-VenDisc {
 Invoke-YASB
 Invoke-Glaze
 Invoke-VenDisc
-#Invoke-Spicetify
+Invoke-Spicetify
 #Invoke-Firefox
