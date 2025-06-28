@@ -58,4 +58,4 @@ Invoke-YASB
 Invoke-Glaze
 Invoke-VenDisc
 Invoke-Spicetify
-#Invoke-Firefox
+Invoke-Firefox
