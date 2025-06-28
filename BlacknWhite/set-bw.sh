@@ -11,6 +11,9 @@ install_packages() {
     #		neovim firefox  wlogout brightnessctl
     #
     #fi
+    read -n1 -rep 'Would you like to install the required packages? (Y/N)' inst
+    if [[ $inst == 'Y' | $inst == 'y' ]]; then
+    yay -S --noconfirm fastfetch sddm spicetify hyprland zsh kitty rofi waybar wlogout
 }
 
 # Firefox
@@ -68,41 +71,42 @@ Copy_config() {
     cp -r $script_dir/wlogout/*. ~/.config/wlogout      #wlogout
 
     echo "Files transferred successfully!"
+}
+
 
 
     # Copy Hyprland
-    echo "Copying hyprland config to .config location"
-    cp -r $script_dir/hypr/* ~/.config/hypr/
+    #echo "Copying hyprland config to .config location"
+    #cp -r $script_dir/hypr/* ~/.config/hypr/
 
     #Copy .zshrc config
-    read -n1 -rep 'Copy ZSH config into config folder? (y/n)' zshd
-    if [[$zshd == "Y" || $zshd == "y" ]]; then
-    cp -r $script_dir/zsh/. ~
-    fi
+    #read -n1 -rep 'Copy ZSH config into config folder? (y/n)' zshd
+    #if [[$zshd == "Y" || $zshd == "y" ]]; then
+    #cp -r $script_dir/zsh/. ~
+    #fi
 
     #Copy .zshrc config
-    echo "Copying .zshrc conf..."
-    cp -r $script_dir/zsh/. ~
+    #echo "Copying .zshrc conf..."
+    #cp -r $script_dir/zsh/. ~
 
     #Copy kitty.conf
-    echo "Copying kitty conf..."
-    cp -r $script_dir/kitty/. ~/.config/kitty/
+    #echo "Copying kitty conf..."
+    #cp -r $script_dir/kitty/. ~/.config/kitty/
 
     #Backup, edit, and copy grub theme
     #To be Continued
-    echo "Backing up, and Copying..."
-    sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir/grub/themes/* /usr/share/grub/themes/"
+    #echo "Backing up, and Copying..."
+    #sudo bash -c "cp /etc/default/grub /etc/default/grub_backup && cp -r $script_dir/grub/themes/* /usr/share/grub/themes/"
 
-    sudo echo -e "GRUB_THEME=\"/usr/share/grub/themes/Cyberpunk/theme.txt\" >> /etc/default/grub"
+    #sudo echo -e "GRUB_THEME=\"/usr/share/grub/themes/Cyberpunk/theme.txt\" >> /etc/default/grub"
 
-    sudo ed -s /etc/default/grub
-    a
-    GRUB_THEME="/usr/share/grub/themes/Cyberpunk/theme.txt"
-    .
-    w
-    q
+    #sudo ed -s /etc/default/grub
+    #a
+    #GRUB_THEME="/usr/share/grub/themes/Cyberpunk/theme.txt"
+    #.
+    #w
+    #q
 
     #Copy rofi
-    echo "Copying rofi conf..."
-    cp -r $script_dir/rofi/*. ~/.config/rofi
-}
+    #echo "Copying rofi conf..."
+    #cp -r $script_dir/rofi/*. ~/.config/rofi
