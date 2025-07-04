@@ -99,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias view="magick display"
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias cdfirefox="cd ~/.mozilla/firefox/t7wugmd6.default-release/"
