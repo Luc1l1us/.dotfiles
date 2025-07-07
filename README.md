@@ -6,17 +6,22 @@ My dotfiles for both Windows and Linux
 
 # Installation Guide
 
-For Catppuccin
+### Clone the repository
 ```
 git clone https://github.com/Luc1l1us/.dotfiles.git
+```
+
+and choose a theme between Catpuccin and Monochrome
+
+### For Catppuccin
+```
 cd ~/.dotfiles/Catppuccin
 chmod +x ~/.set-hyper.sh
 ./set-hypr.sh
 ```
 
-For BlacknWhite/Monochrome
+### For BlacknWhite/Monochrome
 ```
-git clone https://github.com/Luc1l1us/.dotfiles.git
 cd ~/.dotfiles/BlacknWhite
 chmod +x ~/.set-bw.sh
 ./set-bw.sh
