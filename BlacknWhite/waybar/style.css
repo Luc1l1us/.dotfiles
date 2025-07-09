@@ -77,8 +77,15 @@ window#waybar.solo {
 }
 
 #custom-spotify {
-  padding-left: 10px;
+  padding-left: 3px;
   padding-right: 10px;
+}
+
+#custom-spotify-status {
+  color: #ffffff;
+  padding-right: 3px;
+  padding-left: 10px;
+  padding-top: 2px;
   border-radius: 0 0 0 12px;
 }
 
@@ -110,7 +117,8 @@ window#waybar.solo {
 #tray,
 #custom-power,
 #clock,
-#window {
+#window,
+#custom-spotify-status {
   background: rgba(0, 0, 0, 1);
 }
 

@@ -19,6 +19,7 @@
   ],
   "modules-right": [
     "custom/icon-left",
+    "custom/spotify-status",
     "custom/spotify",
     "custom/icon-split",
     "custom/netspeed",
@@ -40,10 +41,17 @@
     "restart-interval": 1800,
     "on-click": "kitty -e sudo pacman -Syu"
   },
+  "custom/spotify-status": {
+    "exec": "exec ~/.config/hypr/hyprland/scripts/spotify_status.sh",
+    "format": "{} |",
+    "return-type": "json",
+    "interval": 5,
+    "restart-interval": 0
+  },
   "custom/spotify": {
     "max-length": 30,
     "exec": "exec ~/.config/hypr/hyprland/scripts/spotify.sh",
-    "format": "{} \uf1bc",
+    "format": "\uf1bc {}",
     "return-type": "text",
     "restart-interval": 0,
     "on-click": "playerctl play-pause"
@@ -175,9 +183,23 @@
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}"
   },
+  // "cpu": {
+  //   "format": "{usage}% ",
+  //   "tooltip": false
+  // },
   "cpu": {
-    "format": "{usage}% ",
-    "tooltip": false
+    "interval": 1,
+    "format": "CPU {icon0}{icon1}{icon2}{icon3}{icon4}",
+    "format-icons": [
+      "<span color='#69ff94'>▁</span>",
+      "<span color='#2aa9ff'>▂</span>",
+      "<span color='#f8f8f2'>▃</span>",
+      "<span color='#f8f8f2'>▄</span>",
+      "<span color='#ffffa5'>▅</span>",
+      "<span color='#ffffa5'>▆</span>",
+      "<span color='#ff9977'>▇</span>",
+      "<span color='#dd532e'>█</span>"
+    ]
   },
   "memory": {
     "format": "{}%  "
