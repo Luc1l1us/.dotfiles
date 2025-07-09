@@ -3,24 +3,35 @@
   "layer": "top", // Waybar at top layer
   "position": "top",
   // "position": "bottom", // Waybar position (top|bottom|left|right)
-  "spacing": 4, // Gaps between modules (4px)
-  "margin": "5px 5px 0 5px",
+  "spacing": 0, // Gaps between modules (4px)
   // Choose the order of the modules
   "modules-left": [
+    "custom/icon-left-outer",
     "custom/updates",
-    "hyprland/window"
+    "custom/icon-split",
+    "hyprland/window",
+    "custom/icon-right"
   ],
   "modules-center": [
-    "hyprland/workspaces"
+    "custom/icon-left",
+    "hyprland/workspaces",
+    "custom/icon-right"
   ],
   "modules-right": [
+    "custom/icon-left",
     "custom/spotify",
+    "custom/icon-split",
     "custom/netspeed",
+    "custom/icon-split",
     "pulseaudio",
+    "custom/icon-split",
     "memory",
+    "custom/icon-split",
     "clock",
+    "custom/icon-split",
     "tray",
-    "custom/power"
+    "custom/power",
+    "custom/icon-right"
   ],
   "custom/updates": {
     "exec": "exec ~/.config/hypr/hyprland/scripts/updates.sh",
@@ -288,5 +299,25 @@
       "suspend": "systemctl suspend",
       "hibernate": "systemctl hibernate"
     }
-  }
+  },
+  "custom/icon-left": {
+    "exec": "echo '✦'",
+    "interval": 0
+  },
+  "custom/icon-left-outer": {
+    "exec": "echo '✦'",
+    "interval": 0
+  },
+  "custom/icon-split": {
+    "exec": "echo '|'",
+    "interval": 0
+  },
+  "custom/icon-right": {
+    "exec": "echo '✦'",
+    "interval": 0
+  },
+  "custom/icon-right-outer": {
+    "exec": "echo '✦'",
+    "interval": 0
+  },
 }
