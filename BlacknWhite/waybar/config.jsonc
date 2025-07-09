@@ -175,9 +175,23 @@
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}"
   },
+  // "cpu": {
+  //   "format": "{usage}% ",
+  //   "tooltip": false
+  // },
   "cpu": {
-    "format": "{usage}% ",
-    "tooltip": false
+    "interval": 1,
+    "format": "CPU {icon0}{icon1}{icon2}{icon3}{icon4}",
+    "format-icons": [
+      "<span color='#69ff94'>▁</span>",
+      "<span color='#2aa9ff'>▂</span>",
+      "<span color='#f8f8f2'>▃</span>",
+      "<span color='#f8f8f2'>▄</span>",
+      "<span color='#ffffa5'>▅</span>",
+      "<span color='#ffffa5'>▆</span>",
+      "<span color='#ff9977'>▇</span>",
+      "<span color='#dd532e'>█</span>"
+    ]
   },
   "memory": {
     "format": "{}%  "
