@@ -19,6 +19,7 @@
   ],
   "modules-right": [
     "custom/icon-left",
+    "custom/spotify-status",
     "custom/spotify",
     "custom/icon-split",
     "custom/netspeed",
@@ -40,10 +41,17 @@
     "restart-interval": 1800,
     "on-click": "kitty -e sudo pacman -Syu"
   },
+  "custom/spotify-status": {
+    "exec": "exec ~/.config/hypr/hyprland/scripts/spotify_status.sh",
+    "format": "{} |",
+    "return-type": "json",
+    "interval": 5,
+    "restart-interval": 0
+  },
   "custom/spotify": {
     "max-length": 30,
     "exec": "exec ~/.config/hypr/hyprland/scripts/spotify.sh",
-    "format": "{} \uf1bc",
+    "format": "\uf1bc {}",
     "return-type": "text",
     "restart-interval": 0,
     "on-click": "playerctl play-pause"
