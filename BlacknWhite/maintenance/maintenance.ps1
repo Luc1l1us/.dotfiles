@@ -1,5 +1,6 @@
 # Disk Cleanup
 function Disk-Cleanup {
+Write-Warning "Please run cleanmgr.exe /sageset:1 first to execute Disk Cleanup"
 Write-Host "Disk Cleaning in progress"
 $CleanerParams = @{
     FilePath = "cleanmgr.exe" 
