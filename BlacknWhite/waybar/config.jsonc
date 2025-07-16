@@ -62,25 +62,27 @@
   },
   "hyprland/workspaces": {
     "sort-by": "number",
-    "format": "{icon}",
+    // "format": "{icon}", uncomment this if you want to have numbers instead of circles
+    "format": "\udb81\udc3d",    
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1",
-    "persistent-workspaces": {
-      "DP-1": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "HDMI-A-1": [
-        6,
-        7,
-        8,
-        9,
-        10
-      ]
-    },
+    // uncomment this if you want persistent workspaces
+    //"persistent-workspaces": {
+    //  "DP-1": [
+    //    1,
+    //    2,
+    //    3,
+    //    4,
+    //    5
+    //  ],
+    //  "HDMI-A-1": [
+    //    6,
+    //    7,
+    //    8,
+    //    9,
+    //    10
+    //  ]
+    //},
     "sort-by-number": true
   },
   "hyprland/window": {
