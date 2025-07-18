@@ -62,7 +62,7 @@ Copy_config() {
     if [[$choice == "Y" || $choice == "y"]]; then
     cp -r $script_dir/fastfetch/* ~/.config/fastfetch/  #Fastfetch\
     cp -r $script_dir/sddm /usr/share/sddm/themes/sddm-blacknwhite-theme/
-    cp -r $script_dir/spicetify ~/.config/spicetify/Themes/tui/ ~/.config/spicetify/config-xpui.ini
+    cp -r $script_dir/spicetify ~/.config/spicetify/Themes/tui/
     cp -r $script_dir/hypr/* ~/.config/hypr/            #Hyprland
     cp -r $script_dir/zsh/. ~                           #ZSH
     cp -r $script_dir/kitty/. ~/.config/kitty/          #Kitty
@@ -110,3 +110,6 @@ Copy_config() {
     #Copy rofi
     #echo "Copying rofi conf..."
     #cp -r $script_dir/rofi/*. ~/.config/rofi
+
+    Copy_config
+
