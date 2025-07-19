@@ -61,8 +61,8 @@ Copy_config() {
   read -p 'Copy fastfetch, grub, hypr, rofi, sddm, spicetify, waybar, and wlogout config files? (y/n): ' choice
   if [[ $choice == "Y" || $choice == "y" ]]; then
     cp -r $script_dir/fastfetch/* ~/.config/fastfetch/ #Fastfetch
-    sudo cp -r $script_dir/sddm/* /usr/share/sddm/themes/
-    cp -r $script_dir/spicetify/tui ~/.config/spicetify/Themes/
+    sudo cp -r $script_dir/sddm/ /usr/share/sddm/themes/
+    cp -r $script_dir/spicetify/tui/ ~/.config/spicetify/Themes/
     cp $script_dir/spicetify/config-xpui.ini ~/.config/spicetify/
     cp -r $script_dir/hypr/* ~/.config/hypr/ #Hyprland
     # cp -r $script_dir/zsh/*  ~/.                           #ZSH
