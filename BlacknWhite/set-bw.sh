@@ -64,12 +64,12 @@ Copy_config() {
     sudo cp -r $script_dir/sddm/ /usr/share/sddm/themes/
     cp -r $script_dir/spicetify/tui/ ~/.config/spicetify/Themes/
     cp $script_dir/spicetify/config-xpui.ini ~/.config/spicetify/
-    cp -r $script_dir/hypr/* ~/.config/hypr/ #Hyprland
-    # cp -r $script_dir/zsh/*  ~/.                           #ZSH
-    # cp -r $script_dir/kitty/ ~/.config/kitty/          #Kitty
-    # cp -r $script_dir/rofi/* ~/.config/rofi            #ROFI
-    # cp -r $script_dir/waybar/* ~/.config/waybar        #Waybar
-    # cp -r $script_dir/wlogout/* ~/.config/wlogout      #wlogout
+    cp -r $script_dir/hypr/* ~/.config/hypr/      #Hyprland
+    cp -r $script_dir/zsh/.zshrc ~/               #ZSH
+    cp -r $script_dir/kitty.conf ~/.config/kitty/ #Kitty
+    cp -r $script_dir/rofi/* ~/.config/rofi       #ROFI
+    cp -r $script_dir/waybar/* ~/.config/waybar   #Waybar
+    cp -r $script_dir/wlogout/* ~/.config/wlogout #wlogout
   fi
   echo "Files transferred successfully!"
 }
