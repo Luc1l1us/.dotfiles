@@ -1,6 +1,7 @@
 # Black and White or Monochrome
 
 Arch Linux
+Outdated pic
 ![image](./images/sample.png)
 
 Windows  
@@ -21,7 +22,7 @@ Execute the following command:
 ### For Firefox config
 ~~Replace [your_profile_directory] with your actual profile directory. Please see your profile by inputting this into the address bar `about:profiles` and copy & paste the root directory of the profile in use.~~
 
-Please see your firefox profile by inputting this into the address bar `about:profiles` and take note of the profile in use as it will be later on used in the installation script.
+Please see your firefox profile by inputting this into the address bar `about:profiles` and take note of the profile in use as it will be later on be used in the installation script.
 
 ### For updating Spotify/Spicetify
  - update [SpotX](https://github.com/SpotX-Official/SpotX)
